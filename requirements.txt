@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+prophet
+altair
+statsmodels
+python-csv
+calender
+
