@@ -267,7 +267,7 @@ if choice =='Business Objective':
     st.write("""
     #####Bơ “Hass", một công ty có trụ sở tại Mexico,chuyên sản xuất nhiều loại quả bơ được bán ở Mỹ.Họ đã rất thành công trong những năm gần đây và muốn mở rộng. Vì vậy, họ muốn xây dựng mô hình hợp lý để dự đoán giá trung bình của bơ “Hass” ở Mỹ nhằm xem xét việc mở rộng các loại trang trại Bơ đang có cho việc trồng bơ ở các vùng khác.#####
     """)
-    image = Image.open('D:\\images.png')
+    image = Image.open('images.png')
     st.image(image)
     st.write("""
     ####Goal: Xây dựng mô hình dự đoán giá bơ hass =>Xem xét việc mở rộng và phát triển kinh doanh #####
