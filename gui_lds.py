@@ -445,8 +445,6 @@ elif choice=='Show prediction':
 
 elif choice=='Data Overview':
     st.subheader("___________BUSINESS OVERVIEW______________")
-    pr=data.profile_report()
-    st_profile_report(pr)
     st.write("""#####Từ kết quả thống kê sản lượng mỗi loại bơ theo năm cho thấy, sản lượng bơ thường và bơ hữu cơ không có sự chênh lệch nhiều trong năm.""")
     st.write("""Từ năm 2015 đến 2017 tổng sản lượng bơ của cả 2 loại cao hơn so với sản lượng năm 2018.""")
     st.write("""Vì dữ liệu được ghi nhận từ tháng 1/2015 đến tháng 3/2018, do đó lượng dữ liệu 2018 nhỏ hơn so với 3 năm trước.""")
