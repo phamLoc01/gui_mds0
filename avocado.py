@@ -29,7 +29,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 #1. Read Data
 #Import data
 data=pd.read_csv('avocado_new.csv')
-image1 = Image.open('image1.png')
+image1 = Image.open('image.png')
 
 #GUI
 st.image(image1)
